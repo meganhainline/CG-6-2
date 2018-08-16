@@ -6,7 +6,14 @@ namespace CG_6_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please enter a sentence.");
+            string myString = Console.ReadLine();
+            myString = myString.ToUpper();
+            Console.WriteLine(myString);
+
+
+            Console.ReadLine();
+
         }
     }
 }
